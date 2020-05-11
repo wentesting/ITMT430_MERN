@@ -1,0 +1,47 @@
+#overallPage {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  font-size: 17px;
+  padding-bottom: 100%;
+}
+
+#itemDesImage {
+  width: 90%;
+}
+
+#wrapImage {
+  grid-column: 1;
+}
+
+#wrapInfo {
+  grid-column: 2;
+}
+
+#buttonPosition {
+  text-align: right;
+}
+
+#backButton {
+  width: 25%;
+  padding: 2%;
+  margin-right: 2%;
+}
+
+#saveButton {
+  width: 25%;
+  background-color: #4051b6;
+  color: white;
+  padding: 2%;
+}
+
+@media screen and (min-width: 750px) {
+
+  #overallPage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 10px;
+  }
+
+}

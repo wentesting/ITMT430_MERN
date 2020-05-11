@@ -1,0 +1,98 @@
+#profilePage {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.userInformationDisplay {
+  display: block;
+  padding-left: 5%;
+}
+
+#userInformationWrap {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.actionButtons {
+  padding-top: 5%;
+}
+
+#buttonsWrap {
+  text-align: center;
+}
+
+#userInformationWrap {
+  text-align: center;
+}
+
+#userProfilePicture {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+#grid1 {
+  text-align: center;
+}
+
+#updateInfoButton {
+  background-color: #4051b6;
+  color: white;
+}
+
+#createPostingButton {
+  background-color: #4051b6;
+  color: white;
+}
+
+#wrapBackButton {
+  text-align: right;
+}
+
+#profileBackButton {
+  width: 25%;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+.currentSellingItemsText {
+  color: gray;
+}
+
+.ProfileItemImagesDisplayed {
+  width: 10%;
+  height: 10%;
+}
+
+.cardGrid {
+  padding-Bottom: 8%;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMedia {
+  padding-Top: 56.25%;
+}
+
+@media screen and (min-width: 750px) {
+  #profilePage {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 10px;
+  }
+
+  #profileBackButton {
+    width: 20%;
+    padding: 1%;
+    margin-top: 2%;
+  }
+}
